@@ -1,0 +1,93 @@
+<!DOCTYPE html><!--etiqueta indica que mi web es html:5 - es una etq abierta-->
+<html lang="es"><!--contenido en español-->
+    <head><!--todo dentro del head son config p el navegador-->
+        <!--las etiq meta son de configuración-->
+        <meta charset="UTF-8"><!--el contenido puede estar en español-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--un px es lo mismo en escritorio que en celular-->
+        <title>Contacto</title><!--cerrada, es lo unico hasta aca que ve el usuario-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <script src="https://kit.fontawesome.com/6b748b5722.js" crossorigin="anonymous"></script>
+    </head>
+    <!--en el body va el contenido que ve el usuario-->
+    <body>
+            <header class="header">
+                <div class="contenedorNav">
+                  <a class="contenedorLogo" href="../index.html">
+                    <img class="logo" src="../assets/img/DagosSkin.jpg" alt="Logo">
+                  </a>
+                <nav class="navegación">
+                    <ul class="listaNav">
+                        <!--lista desordenada-->
+                        <li class="listaItem"><a class="linkNav" href="../index.html">Inicio</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./facial.html">Facial</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./corporal.html">Corporal</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./recomendados.html">Recomendados</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+               </div>   
+            </header>
+            
+     <main>
+            <!--titulo principal h1 / hasta 6 tipos de subtitulos: h6-->
+         <h2>Para más información, </h2>
+         <h1>contactanos!</h1> 
+         <section>
+            <form action="">
+                <label for="">Nombre*</label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese su nombre" required>
+                <label for="">Apellido*</label>
+                <input type="text" id="Apellido" name="Apellido" placeholder="Ingrese su apellido" required>
+                <label for="">Email*</label>
+                <input type="mail" id="Email" name="Email" placeholder="ejemplo@dagos.com.ar" required>
+                <label for="">Comentario*</label>
+                <textarea name="Comentario" id="Comentario" cols="60" rows="5" placeholder="Ingrese su comentario" required></textarea>
+
+                <div>
+                    <input type="submit"  value="Enviar">
+                    <input type="reset" value="Limpiar formulario">
+                </div>
+            </form>
+
+         </section>
+         <!--el siguiente parrafo, en realidad, sería un espacio para colocar una tabla o algo similar donde se coloquen distintas sucursales, si se puede interactiva o en su defecto una imagen-->
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+         <section>
+            <h2>Donde comprar dagos skincare</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13585.510366057682!2d-60.7078381!3d-31.6508878!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9a5da4c0d29%3A0x6279cfa95658ee9!2sSimplicity!5e0!3m2!1ses-419!2sar!4v1696460246408!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </section> 
+
+        </main>
+
+     <footer class="footer">
+
+            <section class="suscribite">
+                <h2>Suscribite a nuestro newsletter</h2>
+                <form action="./pages/contacto.html">
+                    <label for=""></label>
+                    <input type="mail" id="Email" name="Email" placeholder="ejemplo@dagos.com.ar" required>
+                </form>
+                
+            </section>
+           
+            </div>
+            <ul class="footer">
+            <li ><a class="linkNavFooter" href="">Acuerdos y condiciones </a></li>
+            <li><a class="linkNavFooter" href="">Contactate con nosotros</a></li>
+            <li><a class="linkNavFooter" href="">Puntos de venta</a></li>
+            <li><a class="linkNavFooter" href="">Glosario del cuidado de la piel</a></li>
+           <li><a class="linkNavFooter" href="">Políticas de privacidad</a></li>
+           </ul>
+           <div class="contenedorIconos">
+            <a class="anclaFooter" target="_blank" href="http://www.whatsapp.com"><i class="fa-brands fa-whatsapp icon"></i></a>
+            <a class="anclaFooter" target="_blank" href=""><i class="fa-brands fa-facebook icon"></i></a>
+            <a class="anclaFooter" target="_blank" href=""><i class="fa-brands fa-instagram icon"></i></a>
+           </div>
+
+            <section class="footer">© Dagos Laboratories, llc. todos los derechos reservados</section>
+    </footer>
+
+    </body>
+</html>

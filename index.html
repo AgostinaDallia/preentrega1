@@ -1,0 +1,118 @@
+<!DOCTYPE html><!--etiqueta indica que mi web es html:5 - es una etq abierta  MIOOOOO-->
+<html lang="es"><!--contenido en español-->
+    <head><!--todo dentro del head son config p el navegador-->
+        <!--las etiq meta son de configuración-->
+        <meta charset="UTF-8"><!--el contenido puede estar en español-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--un px es lo mismo en escritorio que en celular-->
+        <title>Dagos</title><!--cerrada, es lo unico hasta aca que ve el usuario-->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/estilos.css">
+          <!--iconos de fontawesome-->
+        <script src="https://kit.fontawesome.com/6b748b5722.js" crossorigin="anonymous"></script>
+    </head>
+    <!--en el body va el contenido que ve el usuario-->
+    <body>
+        <header class="header">
+            <div class="contenedorNav">
+              <a class="contenedorLogo" href="index.html">
+                <img class="logo" src="./assets/img/DagosSkin.jpg" alt="Logo">
+              </a>
+            <nav class="navegación">
+                <ul class="listaNav">
+                    <!--lista desordenada-->
+                    <li class="listaItem"><a class="linkNav" href="./index.html">Inicio</a></li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/facial.html">Facial</a></li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/corporal.html">Corporal</a></li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/recomendados.html">Recomendados</a></li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+           </div>
+           <div>
+            <video width="1310" height="600" autoplay muted loop class="video">
+                <source src="./assets/video/portada.mp4" type="video/mp4">
+                   
+                  </video>
+
+           </div>           
+                
+           
+        </header>
+        <main class="mainIndex">
+            <!--titulo principal h1 / hasta 6 tipos de subtitulos: h6-->
+
+
+            <section class="seccionPrincipalIndex">
+               <h1 class="tituloPrincipal">Cuidado de la piel en su máxima expresión</h1>
+                  <p class="parrafo"> Descubri los secretos de una piel saludable y radiante. Aquí, te sumergirás en un mundo de cuidado y bienestar, donde encontrarás consejos, rutinas y productos diseñados para potenciar la belleza natural de tu piel. Nuestra misión es ayudarte a lograr una piel en su máxima expresión de salud y belleza, porque creemos que tu piel merece lo mejor. Únete a nosotros en este viaje hacia una piel que refleje tu vitalidad y confianza interior</p>
+                 
+           </section>
+
+           <section class="tarjetasIndex">
+              <h2 class="tituloSecundario">Explora nuestro contenido</h2>
+              <!--Las imagenes no son las definitivas para la web-->
+                 <a class="tarjeta" href="./pages/facial.html">
+                      <div >
+                        <h3 class="titulitos">Hidratantes Faciales</h3>
+                         <img width="300" height="300" src="./assets/img/serum.png" alt="hidratantesFaciales">
+                        
+                          
+                      </div>
+                 </a>
+                 <a class="tarjeta" href="./pages/corporal.html">
+                           <div >
+                            <h3 class="titulitos">Cremas Corporales</h3>
+                            <img width="300" height="300" src="./assets/img/corporal.png" alt="CremasCorporales">
+    
+                           </div>
+                 </a>
+                 <a class="tarjeta" href="./pages/recomendados.html">
+                            <div>
+                                <h3 class="titulitos">Tips y Tutoriales</h3>
+                               <img width="300" height="300" src="./assets/img/recomendados.png" alt="TipsyTutoriales">
+                               
+                            </div>
+                 </a>
+                 <a class="tarjeta" href="./pages/contacto.html">
+                    <div>
+                        <h3 class="titulitos">Donde Comprar?</h3>
+                       <img width="300" height="300"  src="./assets/img/dondeComprar.png" alt="Contacto">
+                       
+                    </div>
+         </a>
+                
+            </section>
+        </main>
+
+
+        <footer class="footer">
+
+            <section class="suscribite">
+                <h2>Suscribite a nuestro newsletter</h2>
+                <form action="./pages/contacto.html">
+                    <label for=""></label>
+                    <input type="mail" id="Email" name="Email" placeholder="ejemplo@dagos.com.ar" required>
+                </form>
+                
+            </section>
+           
+            </div>
+            <ul class="footer">
+            <li ><a class="linkNavFooter" href="">Acuerdos y condiciones </a></li>
+            <li><a class="linkNavFooter" href="">Contactate con nosotros</a></li>
+            <li><a class="linkNavFooter" href="">Puntos de venta</a></li>
+            <li><a class="linkNavFooter" href="">Glosario del cuidado de la piel</a></li>
+           <li><a class="linkNavFooter" href="">Políticas de privacidad</a></li>
+           </ul>
+           <div class="contenedorIconos">
+            <a class="anclaFooter" target="_blank" href="http://www.whatsapp.com"><i class="fa-brands fa-whatsapp icon"></i></a>
+            <a class="anclaFooter" target="_blank" href=""><i class="fa-brands fa-facebook icon"></i></a>
+            <a class="anclaFooter" target="_blank" href=""><i class="fa-brands fa-instagram icon"></i></a>
+           </div>
+
+            <section class="footer">© Dagos Laboratories, llc. todos los derechos reservados</section>
+            
+
+    </body>
+    
+</html>

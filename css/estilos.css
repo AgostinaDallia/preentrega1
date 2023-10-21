@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,200;1,300;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorNav{
+    background-color: #ffffff;
+    .logo{
+        margin-top:0;
+        margin-left:0px;
+    
+    }
+    .listaNav{
+        list-style: none;
+        display: inline-block;
+        text-align: center; /*no me funciona esta alineación, no entiendo la razón, por eso use padding left para poder centrar la nav*/
+        padding-left: 380px;
+
+         .listaItem{
+           display:inline-block;
+            
+           .linkNav{
+            text-decoration: none;
+            color: coral;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4rem;
+            padding-right: 10px ;
+            padding-bottom: 10px;
+    
+        }
+        }
+    }
+}
+
+.divVideo{
+   
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+        filter:brightness(50%);
+      }
+    
+
+
+/*acá arranca el body*/
+body{
+    margin:20px;
+    font-family:'Montserrat', sans-serif ;
+}
+p{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.imagenFondo{
+    background-image: url("../assets/img/FondoAguitaRosa.jpg");
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 94vh;
+}
+.tarjetasIndex{
+    margin:0 auto;
+    text-decoration: none;
+    
+    text-align: center;
+    padding-bottom: 20px;
+      background-image:url(../assets/img/FondoAguitaRosa.jpg);}
+       .tarjeta{
+        padding-top: 5px;
+        margin-left:5px;
+        display:inline-block;
+        background-color: white;
+        width: 305px;
+        height:380px; }
+        .tituloPrincipal{
+             font-size: 1.8rem;
+             text-align: center;
+             color: #D83E23;
+             background-color: #FFEBDA ;
+             padding-top:8px;
+             padding-bottom: 8px;}
+             .tituloSecundario{
+                 font-size: 1.8rem;
+                  text-align: center;
+                  color: #000000;
+                  padding-top:10px;
+                  padding-bottom: 8px;
+                  font-family: 'Montserrat', sans-serif;}
+
+.titulitos{
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #f193c4;
+    padding-top:18px;
+    padding-bottom: 8px;
+
+}
+.parrafo{
+    font-size:  1rem;
+    text-align: center;
+    line-height: 1.5;
+    padding-top:18px;
+    padding-bottom: 18px;
+}
+/*para pag corporal*/
+.tarjetasProductos{
+    margin:0 auto;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 20px;
+    .tarjeta{
+        padding-top: 5px;
+        margin-left:5px;
+        display:inline-block;
+        background-color: white;
+        width: 305px;
+        height:380px; }
+        .precio{
+            padding-top: 5px;
+            margin-left:5px;
+            color: #D83E23;
+        }
+    }
+    .imagenFondoCorporal{
+        background-image: url("../assets/img/portadaCorporal.jpg");
+        background-position:top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 94vh;
+        position: center;
+        .parrafoSobreImagen{
+            color: #000000;
+            position: center;
+            background-color: none;
+
+        }
+    }
+    /*para facial*/
+    .divVideoFacial{
+   
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+        filter:brightness(50%);}
+    .tarjetasProductosIconos{
+            margin:0 auto;
+            text-decoration: none;
+            text-align: center;
+            padding-bottom: 20px;
+            .tarjetaIconos{
+                padding-top: 5px;
+                margin-left:5px;
+                display:inline-block;
+                background-color: white;
+                width: 305px;
+                height:100px; }
+                .precio{
+                    padding-top: 5px;
+                    margin-left:5px;
+                    color: #D83E23;
+                }
+            }
+    
+/*acá arranca el footer*/
+
+  .footer{
+    background-color:#c6c5c5;
+        color: #000000;
+        list-style: none;
+    padding:10px;
+    text-align: left;
+
+      .linkNavFooter{
+        marker: none;
+        list-style: none; 
+      text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Montserrat', sans-serif ;
+    }
+.icon{
+    font-size: 3rem;
+    color: #000000;
+    padding-right: 15px ;
+    
+}
+.suscribite{
+   
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        background-color:#dbd9d9
+
+  }
+      
+
+  
+  }
