@@ -173,7 +173,9 @@ p{
                     color: #D83E23;
                 }
             }
-    
+    .card{
+        display: inline-block;
+    }
 /*acá arranca el footer*/
 
   .footer{
